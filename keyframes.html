@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+
+        div {
+            border: 1px solid red;
+            perspective: 400px;
+            }
+
+        div img {
+            animation: anim_1 6s infinite;
+            animation-timing-function: linear;
+
+        }
+        @keyframes anim_1 {
+
+            0% {
+                transform: translate(0px,0px);
+            }
+            50% {
+                transform: translate(1110px,0px);
+            }
+            51% {
+                transform: translate(1110px,0px) rotateY(180deg);
+            }
+            100% {
+                transform: translate(0px,0px) rotateY(180deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <img src="hulk.gif-c200" alt="image"></div>
+
+</body>
+</html>

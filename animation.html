@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+div {
+    height:188px;
+    width: 300px;
+    background-color: chartreuse;
+    -webkit-animation-name: anim_1;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+}
+        @keyframes anim_1 {
+            from {
+                background-image: url("bowl.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            to {
+                background-image: url("cage.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                transform: translate(600px,300px);
+            }
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+<h1>animation</h1>
+
+<div>
+
+
+</div>
+
+
+</body>
+</html>

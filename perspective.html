@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*#parent {
+            height: 290px;
+            width: 290px;
+            margin: 0 auto;
+            border: 2px solid red;
+            padding: 40px;
+            perspective: 200px;
+
+        }
+        #child {
+           background-image: url("abstract_gif.gif");
+            background-position: -180px -180px;
+            height: 290px;
+            width: 290px;
+            transition: 2s;
+        }
+
+        #parent:hover #child {
+            transform: rotateY(360deg);
+        }*/
+
+
+        #image {
+            width: 300px;
+            height: 185px;
+            border: 2px solid red;
+            margin: 0 auto;
+perspective: 200px;
+position: relative;
+        }
+        #image img {
+            width: 100%;
+position: absolute;
+            transform: rotateY(720deg);
+            transition: 0.5s;
+        }
+
+        #image:hover img {
+            transform: rotateY(90deg);
+
+
+        }
+        #image p {
+            position: ;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<h1>perspective</h1>
+
+<!--<div id="parent">
+    <div id="child">
+
+
+    </div>
+
+</div>-->
+<div id="image">
+    <img src="bycycle.jpg" alt="iamge">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus doloribus et eveniet illum ipsa, laborum molestias nisi nulla, possimus quae quaerat quas quia sapiente, tempora unde vel voluptatem voluptatum!</p>
+</div>
+
+</body>
+</html>

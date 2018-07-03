@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+}
+
+
+#container{
+    position: relative;
+    height: 700px;
+    background-size: 100% 100%;
+
+}
+#container div {
+     width: 80px;
+border: 2px solid black;
+
+    position: absolute;
+    bottom: 0px;
+    animation: anim1 5s infinite;
+    box-shadow: 10px 5px 10px 10px #000000;
+}
+
+
+@keyframes anim1 {
+    0% {
+        bottom: 0px;
+        animation-timing-function: ease-in;
+    }
+    50% {
+
+height: 600px;
+}
+    70% {
+    height: 400px;
+        width: 300px;
+        bottom: 0px;
+    }
+    80% {
+        width: 400px;
+        bottom: 0px;
+        transform: rotateZ(180deg);
+    }
+
+    100% {
+        width: 400px;
+transform: rotateZ(180deg);
+
+
+    }
+
+}
+
+
+#div_1 {
+
+    background-color: aquamarine;
+left: 5px;
+    height: 400px;
+-webkit-animation-timing-function: ease-in-out;
+}
+#div_2 {
+    background-color: brown;
+    left: 100px;
+    -webkit-animation-timing-function: ease-in;
+    height: 200px;
+
+}
+#div_3 {
+    background-color: red;
+left: 200px;
+    height: 100px;
+    -webkit-animation-timing-function: linear;
+
+
+}
+#div_4 {
+    background-color: yellow;
+    left: 300px;
+    -webkit-animation-timing-function: ease-in-out;
+    height: 500px;
+}
+#div_5 {
+    background-color: deepskyblue;
+    left: 400px;
+height: 100px;
+    -webkit-animation-timing-function: ease-out;
+}
